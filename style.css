@@ -54,7 +54,7 @@ body {
     font-size: 0.9rem;
     padding: 1%;
     margin-left: 10%;
-    margin-right: 10%;
+    /* margin-right: 10%; */
 }
 
 
@@ -103,10 +103,10 @@ a:hover {
 }
 
 .awards {
-    margin-right: 10%;
+    margin-right: 8%;
 }
 
 .education {
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
