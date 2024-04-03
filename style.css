@@ -119,3 +119,22 @@ a:hover {
     margin-right: 5%;
 }
 
+@media screen and (max-width: 768px) {
+    /* CSS for standard display widths up to 768px */
+    /* Add your styles here */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* CSS for standard display widths between 769px and 1024px */
+    /* Add your styles here */
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    /* CSS for standard display widths between 1025px and 1280px */
+    /* Add your styles here */
+}
+
+@media screen and (min-width: 1281px) {
+    /* CSS for standard display widths above 1280px */
+    /* Add your styles here */
+}
