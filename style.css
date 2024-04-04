@@ -79,6 +79,11 @@ a:hover {
     text-shadow: 0 0 5px var(--link-color);
 }
 
+.role {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .resume {
     display: flex;
     flex-direction: column;
@@ -97,7 +102,7 @@ a:hover {
 
 .skills {
  
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .summary {
@@ -120,21 +125,79 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    /* CSS for standard display widths up to 768px */
-    /* Add your styles here */
+    
+    body {
+        margin-left: 5%;
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 2.5rem; 
+    }
+
+    h2, h3, h4 {
+        font-size: 2rem; 
+        margin-right: 0%; 
+    }
+
+    .resume, .summary, .skills, .exp-bullets, .awards, .education {
+        margin-right: 5%; 
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    /* CSS for standard display widths between 769px and 1024px */
-    /* Add your styles here */
+    
+    body {
+        margin-left: 8%;
+        font-size: 0.85rem;
+    }
+
+    h1, h2, h3, h4 {
+        margin-right: 3%; 
+    }
+
+    .resume, .summary, .skills, .exp-bullets, .awards, .education {
+        margin-right: 7%; 
+    }
+
+    .role{
+        margin: 0%;
+    }
+
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    /* CSS for standard display widths between 1025px and 1280px */
-    /* Add your styles here */
+    
+    body {
+        margin-left: 9%;
+        font-size: 0.95rem;
+    }
+
+    h1, h2, h3, h4 {
+        margin-right: 4%; 
+    }
+
+    .resume, .summary, .skills, .exp-bullets, .awards, .education {
+        margin-right: 8%; 
+    }
+
+    .role{
+        margin: 0%;
+    }
 }
 
 @media screen and (min-width: 1281px) {
-    /* CSS for standard display widths above 1280px */
-    /* Add your styles here */
+    
+    body {
+        margin-left: 10%;
+        font-size: 1rem; 
+    }
+
+    h1, h2, h3, h4 {
+        margin-right: 5%; 
+    }
+
+    .role{
+        margin: 0%;
+    }
 }
